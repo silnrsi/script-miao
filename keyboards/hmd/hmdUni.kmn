@@ -1,0 +1,55 @@
+c 
+c Sample Keyboard: Miao
+c Miao of unknown flavor Calling it Ahmao
+c 
+c Provided by: Erich Fickle
+c Updated 1/27/2015: Kien-Wei Tseng
+c Added warted consonants and some changes to make it consistent with DM keyboard
+c              
+c
+c Fonts: 
+c
+
+NAME "hmdUni"
+VERSION 5.0
+
+begin Unicode > use(Umain)
+
+store(kWart) 'abcdegjk' 'lmpqrtvy' 'zNW'
+store(bWart) U+16F44 U+16F01 U+16F0F U+16F0B U+16F19 U+16F1F U+16F30 U+16F22 \
+             U+16F17 U+16F05 U+16F24 U+16F1B U+16F3C U+16F38 U+16F09 U+16F3E \
+             U+16F36 U+16F11 U+16F29
+
+store(kBase) 'abcdefgh' 'ijklmnop' 'qrstuvwx' 'yzABCDEF' 'GHIJKLMN' 'OPQRSTUV' \
+             "WY&=+[]'" ';:/'
+store(bBase) U+16F43 U+16F00 U+16F0E U+16F0A U+16F18 U+16F07 U+16F1E U+16F26 \
+             U+16F61 U+16F2F U+16F21 U+16F16 U+16F04 U+16F50 U+16F59 U+16F23 \
+             U+16F1A U+16F3B U+16F3A U+16F37 U+16F6A U+16F08 U+16F42 U+16F33 \
+             U+16F3D U+16F35 U+16F6B U+16F57 U+16F64 U+16F62 U+16F5E U+16F74 \
+             U+16F73 U+16F5C U+16F7B U+16F7A U+16F54 U+16F75 U+16F5D U+16F10 \
+             U+16F5F U+16F77 U+3001  U+16F60 U+16F79 U+16F58 U+16F51 U+16F7E \
+             U+16F28 U+16F68 "'"     ';'     ':'     U+16F90 U+16F91 U+16F8F \
+             U+16F71 U+16F66 '?'
+
+store(kPre91) '<>?'
+store(bPre91) U+16F6A U+16F61 U+16F59
+
+store(kNul)  'XZ'
+store(kSimple) ' ,."!@#$%^*()_-\|{}`~'
+
+group (Umain) using keys
+
+ + 'F' > dk(wart)
+
+c rule order is important here
+dk(wart) + any(kWart) > index(bWart, 2)
+dk(wart) + any(kBase) > index(bBase, 2)
+dk(wart) + any(kPre91) > index(bPre91, 2) U+16F91
+dk(wart) + any(kNul) > nul
+dk(wart) + any(kSimple) > index(kSimple, 2)
+
+ + any(kBase) > index(bBase, 1)
+ + any(kPre91) > index(bPre91, 1) U+16F91
+ + any(kNul) > nul
+ + any(kSimple) > index(kSimple, 1)
+

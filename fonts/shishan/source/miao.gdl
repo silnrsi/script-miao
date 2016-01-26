@@ -1,0 +1,204 @@
+// gdl for all unicode miao script behaviors based on n3877 chart
+//
+
+// A is above
+// T is top right
+// R is right
+// B is below
+
+#define ABOVE 1
+#define TOP 2
+#define RIGHT 3
+#define FOOT 4
+#define BELOW 5
+#define LG_USENG 1033
+
+#define opt2(x) [x x?]? 
+#define opt3(x) [x opt2(x)]?
+#define opt4(x) [x opt3(x)]?
+#define opt5(x) [x opt4(x)]?
+
+table(feature)
+
+dottedwart {
+	id = "dotw";
+	name.LG_USENG = string("Dotted Warts");
+	default = 0;
+}
+
+// not just vowels per se, but any chuxiong glyph variant named .big
+bigvowels { 
+	id = "bigv";
+	name.LG_USENG = string("Bigger Chuxiong Vowels");
+	default = 0;
+}
+
+lpovar {
+	id = "lpov";
+	name.LG_USENG = string("Lipo variants");
+	default = 0;
+}
+
+hmdvar {
+    id = "hmd";
+    name.LG_USENG = string("Miao variants");
+    default = 0;
+}
+
+yclvar {
+    id = "ycl";
+    name.LG_USENG = string("Bai Yi variants");
+    default = 0;
+}
+
+endtable
+
+table(language)
+
+lipo {
+	languages = ("lpo");
+	lpovar = 1;
+}
+
+chuxiong {
+	languages = ("hmdc");
+	dottedwart = 1;
+	bigvowels = 1;
+    hmdvar = 1;
+}
+
+miao_dotted {
+	languages = ("hmdd");
+	dottedwart =1;
+}
+
+hei_yi {
+	languages = ("ywg");
+}
+bai_yi {
+	languages = ("ycl");
+}
+gan_yi {
+	languages = ("yig");
+}
+
+miao {
+    languages = ("hmd ");
+}
+
+miao_unwarted {
+    languages = ("hmdn");
+    dottedwart = 2;
+}
+
+
+endtable
+
+table(glyph)
+cAsp = (unicode(0x16f51))
+cVowel = (unicode(0x16f54 .. 0x16f7e))
+cTone = (unicode(0x16f8f .. 0x16f92))
+endtable
+
+// substitution
+table (substitution)
+pass (1)
+
+g16f51 g16f91 > _ g16f51_a:(1 a) / _ ^ opt5(cVowel) _=a ;
+g16f51 g16f92 > _ g16f51_b:(1 a) / _ ^ opt5(cVowel) _=a ;
+cno_A > cA / _ ^ opt4(cVowel) (g16f91 g16f51_a);
+cno_B > cB / _ ^ opt4(cVowel) (g16f92 g16f51_b);
+cno_T > cT / _ ^ opt4(cVowel) g16f90;
+cno_R > cR / _ ^ opt4(cVowel) g16f8f;
+
+endpass
+pass (2)
+
+// Can't just delete a glyph since assocs all wrong
+// cTone > _;
+(cVowel cA cB cT cR) cTone > @1:(1 2) _;
+
+endpass
+pass(3)
+
+if (bigvowels == 1)
+	cno_big > cbig;
+else
+	cbig > cno_big;
+endif
+
+if (lpovar == 1)
+    cno_lpo > clpo;
+else
+    clpo > cno_lpo;
+endif
+
+if (hmdvar == 1)
+    cno_hmd > chmd;
+else
+    chmd > cno_hmd;
+endif
+
+// g16f51 > g16f51_base / _ cVowel;
+
+if (yclvar == 1)
+    cno_ycl > cycl;
+else
+    cycl > cno_ycl;
+endif
+
+endpass
+
+pass(4)
+
+if (dottedwart == 1)
+	cno_dot > cdot;
+else if (dottedwart == 2)
+    cno_nowart > cnowart;
+else
+	cdot > cno_dot;
+endif
+
+endpass
+
+
+endtable
+table (positioning)
+pass(1)
+cA {advance.x = basewidth};
+cB {advance.x = basewidth};
+endpass;
+
+pass (2)
+
+cTakesADia cADia{attach{to=@1; with=AM; at=AS}; user1=1} / _ ^ opt2(cnTakesADia) _{user1 == 0}; 
+cTakesBDia cBDia{attach{to=@1; with=BM; at=BS}; user1=1} / _ ^ opt2(cnTakesBDia) _{user1 == 0}; 
+cTakesVDia cVDia{attach{to=@1; with=VM; at=VS}; user1=1} / _ ^ _{user1 == 0}; 
+cTakesVDia cRDia{attach{to=@1; with=RM; at=VS}; user1=1} / _ ^ _{user1 == 0};
+cTakesVDia cFDia{attach{to=@1; with=FM; at=VS}; user1=1} / _ ^ _{user1 == 0};
+cTakesVDia cDia{attach{to=@1; with=M; at=VS}; user1=1} / _ ^ _{user1 == 0};
+cTakesMVDia cMVDia{attach{to=@1; with=MVM; at=MVS}; user1=1} / _ ^ _{user1 == 0}; 
+
+endpass
+
+#define VS 730m
+pass(3)
+
+cTakesADia cADia{shift.x=-((@r.position.x+@r.advance.x-@b.position.x)/2)+VS} / _ opt2(cnTakesADia) _=b opt3(cno_A) cno_A=r;
+cTakesADia cADia{shift.x=-(@b.advance.x/2)+VS} / _ opt2(cnTakesADia) _=b;
+
+cTakesBDia cBDia{shift.x=-((@r.position.x+@r.advance.x-@b.position.x)/2)+VS} / _ opt2(cnTakesBDia) _=b opt3(cno_B) cno_B=r;
+cTakesBDia cBDia{shift.x=-(@b.advance.x/2)+VS} / _ opt2(cnTakesBDia) _=b;
+endpass
+
+pass(4)
+
+cTakesSDia cDia{attach{to=@1;with=M;at=SS}; user1=1}   / ^ _ opt5(cnDia) _{user1 == 0}; 
+cTakesRDia cRDia{attach{to=@1;with=RM;at=RS}; user1=1} / ^ _ opt5(cnTakesRDia) _{user1 == 0}; 
+cTakesFDia cFDia{attach{to=@1;with=FM;at=FS}; user1=1} / ^ _ opt5(cnTakesFDia) _{user1 == 0}; 
+// cTakesCDia cCDia{attach{to=@1;with=CM;at=CS}; user1=1} /  ^ _ opt5(cnTakesCDia) _{user1 == 0}; 
+cSPDia {attach{to=@2;with=SPM;at=SPS}; user1=1} cTakesSPDia / _{user1 == 0} ^ _; 
+
+endpass
+endtable
+
