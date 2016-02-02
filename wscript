@@ -9,7 +9,7 @@ TESTDIR='test'
 OUTDIR='exes'
 ZIPDIR='zips'
 out='results'
-LICENSE="../fonts/shishan/OFL.txt"
+LICENSE="fonts/shishan/OFL.txt"
 
 langmap = {
    'LPO' : [['lpoUni']],
