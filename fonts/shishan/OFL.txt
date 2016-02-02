@@ -1,5 +1,9 @@
-Copyright (c) 2012 SIL International, with Reserved Font Name <ShiShan>.
-Some glyphs taken and modified under the OFL from PollardTsu Copyright (c) 2000-2007 by David Morse and SIL Doulos 4.100, Copyright (c) 2003-2005, SIL International (http://scripts.sil.org/).Copyright (c) 2000-2007 David Morse,
+Copyright (c) 2012-2016 SIL International (http://www.sil.org),
+with Reserved Font Name "ShiShan".
+
+Some glyphs taken and modified from other OFL-licensed fonts:
+PollardTsu - Copyright (c) 2000-2007 by David Morse, and 
+SIL Doulos 4.100 - Copyright (c) 2003-2005, SIL International
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

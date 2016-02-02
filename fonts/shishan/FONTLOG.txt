@@ -1,0 +1,45 @@
+FONTLOG
+ShiShan fonts for the Miao (Pollard) script
+===========================================
+
+This file provides detailed information on the ShiShan font software.
+This information should be distributed along with the ShiShan fonts and any derivative works.
+
+
+Basic Font Information
+----------------------
+
+ShiShan is a set of Unicode fonts for the Miao (Pollard) script.
+Font sources are published in the repository and a smith open workflow is used for building, testing and releasing.
+
+
+ChangeLog
+----------
+
+2016-01-26 (SIL Non-Roman Script Initiative) 1.1
+- Initial move of sources from internal Hg repo to Github
+- Fonts should still be regarded as experimental
+
+
+Acknowledgements
+----------------
+
+Some glyphs taken and modified from other OFL-licensed fonts:
+PollardTsu - Copyright (c) 2000-2007 by David Morse, and 
+SIL Doulos 4.100 - Copyright (c) 2003-2005, SIL International
+
+(Here is where contributors can be acknowledged. If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D).
+
+This list is in alphabetical order.
+
+N: Victor Gaultney
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: Design modifications
+
+N: Martin Hosken
+E: ...
+W: http://scripts.sil.org/
+D: Script engineer
+
+For more information send an e-mail to <fonts@sil.org>
