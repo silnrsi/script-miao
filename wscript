@@ -23,9 +23,10 @@ font(
 	target=process("fonts/ShiShan.ttf", name("ShiShan", lang="en-US"), name("ShiShan 狮山", lang="zh-CN")),
 	source="fonts/shishan/source/ShiShan.sfd",
 	ap="fonts/ShiShan.xml",
-	sfd_master="fonts/shishan/source/ShiShan.sfd",
+#	sfd_master="fonts/shishan/source/ShiShan.sfd",
     graphite=gdl("fonts/ShiShan.gdl", master="fonts/shishan/source/miao.gdl", params="-d -q -w3521", make_params="-r"),
-    opentype = internal(),
+#    opentype = internal(),
+    opentype = fea("fonts/ShiShan.fea", master="fonts/shishan/source/ShiShan.fea", make_params="-z 8"),
     script = 'plrd'
     )
 for l in langmap.keys() :
