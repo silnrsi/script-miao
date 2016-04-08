@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394085817
-ModificationTime: 1460042188
+ModificationTime: 1460123072
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -30775,7 +30775,7 @@ Flags: W
 LayerCount: 3
 Back
 Fore
-Refer: 163 33 S 1 0 0 1 195 -150 2
+Refer: 163 33 S 1 0 0 1 195 0 2
 Layer: 2
 EndChar
 
@@ -30787,7 +30787,7 @@ Flags: W
 LayerCount: 3
 Back
 Fore
-Refer: 176 46 S 1 0 0 1 225 -150 2
+Refer: 176 46 S 1 0 0 1 225 0 2
 Layer: 2
 EndChar
 
@@ -30799,7 +30799,7 @@ Flags: W
 LayerCount: 3
 Back
 Fore
-Refer: 174 44 S 1 0 0 1 225 -150 2
+Refer: 174 44 S 1 0 0 1 225 0 2
 Layer: 2
 EndChar
 
@@ -30811,7 +30811,7 @@ Flags: W
 LayerCount: 3
 Back
 Fore
-Refer: 188 58 S 1 0 0 1 225 -150 2
+Refer: 188 58 S 1 0 0 1 225 0 2
 Layer: 2
 EndChar
 
@@ -30823,7 +30823,7 @@ Flags: W
 LayerCount: 3
 Back
 Fore
-Refer: 189 59 S 1 0 0 1 225 -150 2
+Refer: 189 59 S 1 0 0 1 225 0 2
 Layer: 2
 EndChar
 
@@ -30835,7 +30835,7 @@ Flags: W
 LayerCount: 3
 Back
 Fore
-Refer: 193 63 S 1 0 0 1 7 -150 2
+Refer: 193 63 S 1 0 0 1 7 0 2
 Layer: 2
 EndChar
 
