@@ -12,5 +12,5 @@ Since the Miao script involves complex rendering (such as vowel marks being rais
 
 The Lisu (Fraser) script, also used in southern China and neighbouring areas, is included in this font as it may be helpful to have a matching design. Lisu is already supported by other fonts, including the [Noto][noto] project.
 
-[ssp]:http://sourceforge.net/projects/sourcesans.adobe/
+[ssp]:https://github.com/adobe-fonts/source-sans-pro
 [noto]:https://code.google.com/p/noto/wiki/NotoSansLisu

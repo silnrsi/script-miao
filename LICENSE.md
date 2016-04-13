@@ -1,18 +1,11 @@
 # MiaoUnicode License
 
-"Miao Unicode" is an open source font released under the SIL Open Font License (see below), with Reserved Font Name "Miao Unicode".
+Basic latin glyphs from Source Sans Pro (https://github.com/adobe-fonts/source-sans-pro) and copyright (c) 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
 
-The Latin script counterpart and base for the design comes from Adobe Source Sans Pro, also released under the SIL Open Font License. Adobe's original preamble is included here:
+Miao and Lisu glyphs and code copyright (c) 2013 Philip Reimer, with Reserved Font Name 'Miao Unicode'.
 
-[ADOBE SOURCE SANS PRO][ssp]
-
-*Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.*
-
-*This Font Software is licensed under the SIL Open Font License, Version 1.1.*
-
-*This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL*
-
-[ssp]:http://sourceforge.net/projects/sourcesans.adobe/
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
