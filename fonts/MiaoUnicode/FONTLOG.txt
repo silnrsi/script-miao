@@ -1,0 +1,35 @@
+FONTLOG
+MiaoUnicode fonts for the Miao (Pollard) script
+===========================================
+
+This file provides detailed information on the MiaoUnicode font software.
+This information should be distributed along with the MiaoUnicode fonts and any derivative works.
+
+
+Basic Font Information
+----------------------
+
+MiaoUnicode is a set of Unicode fonts for the Miao (Pollard) script.
+Font sources are published in the repository and a smith open workflow is used for building, testing and releasing.
+
+
+ChangeLog
+----------
+
+2016-04-28 (SIL Non-Roman Script Initiative) 1.1
+- Moving files into smith open workflow format
+- Fonts should still be regarded as experimental
+
+
+Acknowledgements
+----------------
+
+Basic latin glyphs from Source Sans Pro (https://github.com/adobe-fonts/source-sans-pro) and copyright (c) 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
+
+Miao and Lisu glyphs and code copyright (c) 2013 Philip Reimer, with Reserved Font Name 'Miao Unicode'.
+
+(Here is where contributors can be acknowledged. If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D).
+
+This list is in alphabetical order.
+
+For more information send an e-mail to <fonts@sil.org>
