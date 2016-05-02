@@ -1,0 +1,25 @@
+#! /usr/bin/python
+# encoding: utf-8
+
+import os
+
+APPNAME="miao"
+VERSION=0.6
+TESTDIR='test'
+OUTDIR='exes'
+ZIPDIR='zips'
+out='results'
+LICENSE="OFL.txt"
+sourcedir='source'
+
+langmap = {
+   'hmd' : [['hmdUni'],['Shimenkan']],
+   'lpo' : [['lpoUni'],['Taogu']]
+}
+
+font(target = 'miao.ttf',
+    source = os.path.join(sourcedir, 'miao.sfd'),
+    graphite = gdl('fonts/miao.gdl', master=os.path.join(sourcedir, 'miao.gdl'), params="-d -q -w3521", make_params="-r"),
+    script = 'plrd'
+)
+
