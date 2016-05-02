@@ -10,45 +10,54 @@ OUTDIR='exes'
 ZIPDIR='zips'
 out='results'
 LICENSE="fonts/shishan/OFL.txt"
-
-langmap = {
-   'LPO' : [['lpoUni']],
-   'YCL' : [['yclUni']],
-   'HMD' : [['hmdUni'],['HMD','HMDD', 'HMDN']],
-   'YWQ' : [['ywqUni']],
-   'YIG' : [['yigUni']]
+GIT_SUBTREES={
+    'fonts/miaounicode' : {'origin' : 'https://github.com/silnrsi/MiaoUnicode',
+                            'branch' : 'smith_version' }
 }
 
-font(
-	target=process("fonts/ShiShan.ttf", name("ShiShan", lang="en-US"), name("ShiShan 狮山", lang="zh-CN")),
-	source="fonts/shishan/source/ShiShan.sfd",
-	ap="fonts/ShiShan.xml",
-#	sfd_master="fonts/shishan/source/ShiShan.sfd",
-    graphite=gdl("fonts/ShiShan.gdl", master="fonts/shishan/source/miao.gdl", params="-d -q -w3521", make_params="-r"),
-#    opentype = internal(),
-    opentype = fea("fonts/ShiShan.fea", master="fonts/shishan/source/ShiShan.fea", make_params="-z 8"),
-    script = 'plrd'
-    )
+langmap = {
+   'LPO' : {'name' : 'taogu'},
+   'YCL' : {},
+   'HMD' : {'sublangs' : ['HMD','HMDD', 'HMDN'], 'name' : "shimenkan"},
+   'YWQ' : {},
+   'YIG' : {}
+}
+
+subfonts = {}
+g = package.global_package()
+for s in ('fonts/shishan', 'fonts/miaounicode/fonts/MiaoUnicode') :
+    subfonts[s] = []
+    for p in subdir(s) :
+        g.add_package(p, s)
+        for f in p.fonts :
+            subfonts[s] += [os.path.join(s, out, f.target)]
+
 for l in langmap.keys() :
     p = package(
         appname = 'Miao-' + l[0] + l[1:].lower(),
+        out = 'results',
         outdir = 'exes',
         zipdr = 'zips',
 	    version = VERSION,
         license = LICENSE
     )
-    if len(langmap[l]) > 1 :
-        s = langmap[l][1]
-    else :
-        s = (l, )
+    s = langmap[l].get('sublangs', (l, ))
     for k in s :
-        cmds = [cmd('ttfdeflang -d ' + k + ' ${DEP} ${TGT}'), name("ShiShan " + k, lang='en-US')]
+        cmds = [cmd('ttfdeflang -d ' + k + ' ${DEP} ${TGT}')]
         if os.path.exists(os.path.join('fonts/shishan/source', l+'map.cfg')) :
             cmds.append(cmd('ttfremap -c ${SRC} -r ${DEP} ${TGT}', ['fonts/shishan/source/' + k + 'map.cfg']))
-        font(target=process("fonts/ShiShan-"+k+".ttf", *cmds),
-            source='fonts/ShiShan.ttf',
+        font(target=process("fonts/ShiShan-"+k+".ttf", *([name("ShiShan "+k, lang='en-US')]+cmds)),
+            source=subfonts['fonts/shishan'][0],
             package = p)
-    for k in langmap[l][0] :
+        miaoname = langmap[l].get('name', None)
+        if miaoname is None : continue
+        subname = k if len(s) > 1 and k != s[0] else ""
+        font(target=process('fonts/{}{}.ttf'.format(miaoname, "-"+subname if subname else ""),
+                            *([name("{}{}".format(miaoname, (" "+subname if subname else "")), lang='en-US')]+cmds)),
+             source=subfonts['fonts/miaounicode/fonts/MiaoUnicode'][0],
+             package=p)
+    langkbds = langmap[l].get('id', [l.lower() + "Uni", ])
+    for k in langkbds :
         sk = k.split('=')
         if len(sk) < 2 : sk.append(sk[0])
         kbd(target = 'keyboards/' + sk[0] + '.kmn',

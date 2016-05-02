@@ -1,0 +1,14 @@
+
+out='results'
+
+font(
+	target=process("ShiShan.ttf", name("ShiShan", lang="en-US"), name("ShiShan 狮山", lang="zh-CN")),
+	source="source/ShiShan.sfd",
+	ap="ShiShan.xml",
+#	sfd_master="source/ShiShan.sfd",
+    graphite=gdl("ShiShan.gdl", master="source/miao.gdl", params="-d -q -w3521", make_params="-r"),
+#    opentype = internal(),
+    opentype = fea("ShiShan.fea", master="source/ShiShan.fea", make_params="-z 8"),
+    script = 'plrd'
+    )
+
