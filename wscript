@@ -12,7 +12,8 @@ out='results'
 LICENSE="fonts/shishan/OFL.txt"
 GIT_SUBTREES={
     'fonts/miaounicode' : {'origin' : 'https://github.com/silnrsi/MiaoUnicode',
-                            'branch' : 'smith_version' }
+                            'branch' : 'smith_version',
+                            'autoupdate' : True }
 }
 
 langmap = {
@@ -68,4 +69,18 @@ for l in langmap.keys() :
             package = p,
             mskbd = mskbd(langname = 'Miao', lidinstall = [0x0436])
             )
+
+def configure(ctx) :
+# this code to be merged into waf, use this for testing
+    from subprocess import call
+    try :
+        for s, r in GIT_SUBTREES.items() :
+            if isinstance(r, dict) and r.get('autoupdate', False) :
+                cmds = ['git', 'subtree', 'pull', '-P', s,
+                        '-m', 'smith auto subtree pull to ' + s, '--squash',
+                        r['origin']]
+                if 'branch' in r : cmds += [r['branch']]
+                call(cmds)
+    except :
+        pass
 
