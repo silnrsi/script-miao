@@ -17,9 +17,9 @@ GIT_SUBTREES={
 }
 
 langmap = {
-   'LPO' : {'name' : 'taogu'},
+   'LPO' : {'name' : 'Taogu'},
    'YCL' : {},
-   'HMD' : {'sublangs' : ['HMD','HMDD', 'HMDN'], 'name' : "shimenkan"},
+   'HMD' : {'sublangs' : ['HMD','HMDD', 'HMDN'], 'name' : "Shimenkan"},
    'YWQ' : {},
    'YIG' : {}
 }
