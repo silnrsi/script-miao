@@ -5,7 +5,6 @@ import os
 
 APPNAME="miao"
 VERSION=0.6
-TESTDIR='test'
 OUTDIR='exes'
 ZIPDIR='zips'
 out='results'
