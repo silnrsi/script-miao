@@ -12,7 +12,7 @@ out='results'
 LICENSE="fonts/shishan/OFL.txt"
 GIT_SUBTREES={
     'fonts/miaounicode' : {'origin' : 'https://github.com/silnrsi/MiaoUnicode',
-                            'branch' : 'smith_version',
+                            'branch' : 'master',
                             'autoupdate' : True }
 }
 
