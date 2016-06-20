@@ -44,19 +44,23 @@ for l in langmap.keys() :
     )
     s = langmap[l].get('sublangs', (l, ))
     for k in s :
-        cmds = [cmd('ttfdeflang -d ' + k + ' ${DEP} ${TGT}')]
+        cmds = []
+        cmds = [cmd('ttfdeflang -d ' + k + ' ${DEP} ${TGT}'), name("ShiShan " + k, lang='en-US')]
         if os.path.exists(os.path.join('fonts/shishan/source', l+'map.cfg')) :
             cmds.append(cmd('ttfremap -c ${SRC} -r ${DEP} ${TGT}', ['fonts/shishan/source/' + k + 'map.cfg']))
-        font(target=process("fonts/ShiShan-"+k+".ttf", *([name("ShiShan "+k, lang='en-US')]+cmds)),
+        font(target=process("fonts/ShiShan-"+k+".ttf", *cmds),
             source=subfonts['fonts/shishan'][0],
             package = p)
-        miaoname = langmap[l].get('name', None)
-        if miaoname is None : continue
-        subname = k if len(s) > 1 and k != s[0] else ""
-        font(target=process('fonts/{}{}.ttf'.format(miaoname, "-"+subname if subname else ""),
-                            *([name("{}{}".format(miaoname, (" "+subname if subname else "")), lang='en-US')]+cmds)),
-             source=subfonts['fonts/miaounicode/fonts/MiaoUnicode'][0],
-             package=p)
+    miaoname = langmap[l].get('name', None)
+    if miaoname :
+	cmds = [cmd('ttfdeflang -d ' + l + ' ${DEP} ${TGT}'), name(miaoname, lang='en-US')]
+	if os.path.exists(os.path.join('fonts/miaounicode/fonts/MiaoUnicode/source', l.lower()+'map.cfg')) :
+	    cmds.append(cmd('ttfremap -c ${SRC} -r ${DEP} ${TGT}', ['fonts/miaounicode/fonts/MiaoUnicode/source/' + l.lower() + 'map.cfg']))
+	gdlfile = 'fonts/miaounicode/fonts/MiaoUnicode/source/' + l.lower() + '.gdl'
+	font(target=process('fonts/{}.ttf'.format(miaoname), *cmds),
+	     source=subfonts['fonts/miaounicode/fonts/MiaoUnicode'][0],
+	     graphite=gdl(l.lower() + '.gdl', master=gdlfile, params='-d -q -w3521', make_params='-r'),
+	     package=p)
     langkbds = langmap[l].get('id', [l.lower() + "Uni", ])
     for k in langkbds :
         sk = k.split('=')
