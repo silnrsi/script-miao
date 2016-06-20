@@ -44,7 +44,6 @@ for l in langmap.keys() :
     )
     s = langmap[l].get('sublangs', (l, ))
     for k in s :
-        cmds = []
         cmds = [cmd('ttfdeflang -d ' + k + ' ${DEP} ${TGT}'), name("ShiShan " + k, lang='en-US')]
         if os.path.exists(os.path.join('fonts/shishan/source', l+'map.cfg')) :
             cmds.append(cmd('ttfremap -c ${SRC} -r ${DEP} ${TGT}', ['fonts/shishan/source/' + k + 'map.cfg']))
