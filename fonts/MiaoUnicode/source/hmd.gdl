@@ -8,106 +8,106 @@ ExtraDescent = 100m;
 table(glyph) {AttributeOverride = true};
 
 /* initials */
-  gPa = postscript("miao_pa");  // U+16F00·𖼀
-  gBa = postscript("miao_ba");  // U+16F01·𖼁
-  gPaYi = postscript("miao_yi_pa");  // U+16F02·𖼂
-  gPla = postscript("miao_pla");  // U+16F03·𖼃
-  gMa = postscript("miao_ma");  // U+16F04·𖼄	
-  gMha = postscript("miao_mha");  // U+16F05·𖼅
-  gMaArch = postscript("miao_arch_ma");  // U+16F06·𖼆
-  gFa = postscript("miao_fa");  // U+16F07·𖼇
-  gVa = postscript("miao_va");  // U+16F08·𖼈
-  gVfa = postscript("miao_vfa");  // U+16F09·𖼉
-  gTa = postscript("miao_ta");  // U+16F0A·𖼊
-  gDa = postscript("miao_da");  // U+16F0B·𖼋
-  gTtaYi = postscript("miao_yi_tta");  // U+16F0C·𖼌
-  gTaYi = postscript("miao_yi_ta");  // U+16F0D·𖼍
-  gTta = postscript("miao_tta");  // U+16F0E·𖼎
-  gDda = postscript("miao_dda");  // U+16F0F·𖼏
-  gNa = postscript("miao_na");  // U+16F10·𖼐
-  gNha = postscript("miao_nha");  // U+16F11·𖼑
-  gNnaYi = postscript("miao_yi_nna");  // U+16F12·𖼒
-  gNaArch = postscript("miao_arch_na");  // U+16F13·𖼓
-  gNna = postscript("miao_nna");  // U+16F14·𖼔
-  gNnha = postscript("miao_nnha");  // U+16F15·𖼕
-  gLa = postscript("miao_la");  // U+16F16·𖼖
-  gLya = postscript("miao_lya");  // U+16F17·𖼗
-  gLha = postscript("miao_lha");  // U+16F18·𖼘
-  gLhya = postscript("miao_lhya");  // U+16F19·𖼙
-  gTlha = postscript("miao_tlha");  // U+16F1A·𖼚
-  gDlha = postscript("miao_dlha");  // U+16F1B·𖼛
-  gTlhya = postscript("miao_tlhya");  // U+16F1C·𖼜
-  gDlhya = postscript("miao_dlhya");  // U+16F1D·𖼝
-  gKa = postscript("miao_ka");  // U+16F1E·𖼞
-  gGa = postscript("miao_ga");  // U+16F1F·𖼟
-  gKaYi = postscript("miao_yi_ka");  // U+16F20·𖼠
-  gQa = postscript("miao_qa");  // U+16F21·𖼡
-  gQga = postscript("miao_qga");  // U+16F22·𖼢
-  gNga = postscript("miao_nga");  // U+16F23·𖼣
-  gNgha = postscript("miao_ngha");  // U+16F24·𖼤
-  gNgaArch = postscript("miao_arch_nga");  // U+16F25·𖼥
-  gHa = postscript("miao_ha");  // U+16F26·𖼦
-  gXa = postscript("miao_xa");  // U+16F27·𖼧
-  gGha = postscript("miao_gha");  // U+16F28·𖼨
-  gGhha = postscript("miao_ghha");  // U+16F29·𖼩
-  gTssa = postscript("miao_tssa");  // U+16F2A·𖼪
-  gDzza = postscript("miao_dzza");  // U+16F2B·𖼫
-  gNya = postscript("miao_nya");  // U+16F2C·𖼬
-  gNyha = postscript("miao_nyha");  // U+16F2D·𖼭
-  gTsha = postscript("miao_tsha");  // U+16F2E·𖼮
-  gDzha = postscript("miao_dzha");  // U+16F2F·𖼯
-  gTshaYi = postscript("miao_yi_tsha");  // U+16F30·𖼰
-  gDzhaYi = postscript("miao_yi_dzha");  // U+16F31·𖼱
-  gTshaRef = postscript("miao_ref_tsha");  // U+16F32·𖼲
-  gSha = postscript("miao_sha");  // U+16F33·𖼳
-  gSsa = postscript("miao_ssa");  // U+16F34·𖼴
-  gZha = postscript("miao_zha");  // U+16F35·𖼵
-  gZsha = postscript("miao_zsha");  // U+16F36·𖼶
-  gTsa = postscript("miao_tsa");  // U+16F37·𖼷
-  gDza = postscript("miao_dza");  // U+16F38·𖼸
-  gTsaYi = postscript("miao_yi_tsa");  // U+16F39·𖼹
-  gSa = postscript("miao_sa");  // U+16F3A·𖼺
-  gZa = postscript("miao_za");  // U+16F3B·𖼻
-  gZsa = postscript("miao_zsa");  // U+16F3C·𖼼
-  gZza = postscript("miao_zza");  // U+16F3D·𖼽
-  gZzsa = postscript("miao_zzsa");  // U+16F3E·𖼾
-  gZzaArch = postscript("miao_arch_zza");  // U+16F3F·𖼿
-  gZzya = postscript("miao_zzya");  // U+16F40·𖽀
-  gZzsya = postscript("miao_zzsya");  // U+16F41·𖽁
-  gWa = postscript("miao_wa");  // U+16F42·𖽂
-  gAh = postscript("miao_ah");  // U+16F43·𖽃
-  gHha = postscript("miao_hha");  // U+16F44·𖽄
+  gPa = postscript("miao_pa");  // U+16F00·?
+  gBa = postscript("miao_ba");  // U+16F01·?
+  gPaYi = postscript("miao_yi_pa");  // U+16F02·?
+  gPla = postscript("miao_pla");  // U+16F03·?
+  gMa = postscript("miao_ma");  // U+16F04·?	
+  gMha = postscript("miao_mha");  // U+16F05·?
+  gMaArch = postscript("miao_arch_ma");  // U+16F06·?
+  gFa = postscript("miao_fa");  // U+16F07·?
+  gVa = postscript("miao_va");  // U+16F08·?
+  gVfa = postscript("miao_vfa");  // U+16F09·?
+  gTa = postscript("miao_ta");  // U+16F0A·?
+  gDa = postscript("miao_da");  // U+16F0B·?
+  gTtaYi = postscript("miao_yi_tta");  // U+16F0C·?
+  gTaYi = postscript("miao_yi_ta");  // U+16F0D·?
+  gTta = postscript("miao_tta");  // U+16F0E·?
+  gDda = postscript("miao_dda");  // U+16F0F·?
+  gNa = postscript("miao_na");  // U+16F10·?
+  gNha = postscript("miao_nha");  // U+16F11·?
+  gNnaYi = postscript("miao_yi_nna");  // U+16F12·?
+  gNaArch = postscript("miao_arch_na");  // U+16F13·?
+  gNna = postscript("miao_nna");  // U+16F14·?
+  gNnha = postscript("miao_nnha");  // U+16F15·?
+  gLa = postscript("miao_la");  // U+16F16·?
+  gLya = postscript("miao_lya");  // U+16F17·?
+  gLha = postscript("miao_lha");  // U+16F18·?
+  gLhya = postscript("miao_lhya");  // U+16F19·?
+  gTlha = postscript("miao_tlha");  // U+16F1A·?
+  gDlha = postscript("miao_dlha");  // U+16F1B·?
+  gTlhya = postscript("miao_tlhya");  // U+16F1C·?
+  gDlhya = postscript("miao_dlhya");  // U+16F1D·?
+  gKa = postscript("miao_ka");  // U+16F1E·?
+  gGa = postscript("miao_ga");  // U+16F1F·?
+  gKaYi = postscript("miao_yi_ka");  // U+16F20·?
+  gQa = postscript("miao_qa");  // U+16F21·?
+  gQga = postscript("miao_qga");  // U+16F22·?
+  gNga = postscript("miao_nga");  // U+16F23·?
+  gNgha = postscript("miao_ngha");  // U+16F24·?
+  gNgaArch = postscript("miao_arch_nga");  // U+16F25·?
+  gHa = postscript("miao_ha");  // U+16F26·?
+  gXa = postscript("miao_xa");  // U+16F27·?
+  gGha = postscript("miao_gha");  // U+16F28·?
+  gGhha = postscript("miao_ghha");  // U+16F29·?
+  gTssa = postscript("miao_tssa");  // U+16F2A·?
+  gDzza = postscript("miao_dzza");  // U+16F2B·?
+  gNya = postscript("miao_nya");  // U+16F2C·?
+  gNyha = postscript("miao_nyha");  // U+16F2D·?
+  gTsha = postscript("miao_tsha");  // U+16F2E·?
+  gDzha = postscript("miao_dzha");  // U+16F2F·?
+  gTshaYi = postscript("miao_yi_tsha");  // U+16F30·?
+  gDzhaYi = postscript("miao_yi_dzha");  // U+16F31·?
+  gTshaRef = postscript("miao_ref_tsha");  // U+16F32·?
+  gSha = postscript("miao_sha");  // U+16F33·?
+  gSsa = postscript("miao_ssa");  // U+16F34·?
+  gZha = postscript("miao_zha");  // U+16F35·?
+  gZsha = postscript("miao_zsha");  // U+16F36·?
+  gTsa = postscript("miao_tsa");  // U+16F37·?
+  gDza = postscript("miao_dza");  // U+16F38·?
+  gTsaYi = postscript("miao_yi_tsa");  // U+16F39·?
+  gSa = postscript("miao_sa");  // U+16F3A·?
+  gZa = postscript("miao_za");  // U+16F3B·?
+  gZsa = postscript("miao_zsa");  // U+16F3C·?
+  gZza = postscript("miao_zza");  // U+16F3D·?
+  gZzsa = postscript("miao_zzsa");  // U+16F3E·?
+  gZzaArch = postscript("miao_arch_zza");  // U+16F3F·?
+  gZzya = postscript("miao_zzya");  // U+16F40·?
+  gZzsya = postscript("miao_zzsya");  // U+16F41·?
+  gWa = postscript("miao_wa");  // U+16F42·?
+  gAh = postscript("miao_ah");  // U+16F43·?
+  gHha = postscript("miao_hha");  // U+16F44·?
 
 /* stylistic alternates */
-  gShaSalt = postscript("miao_sha.salt");  // U+16F33 Stylistic·𖼳
-  gSsaSalt = postscript("miao_ssa.salt");  // U+16F34 Stylistic·𖼴
+  gShaSalt = postscript("miao_sha.salt");  // U+16F33 Stylistic·?
+  gSsaSalt = postscript("miao_ssa.salt");  // U+16F34 Stylistic·?
 
 /* Chuxiong 'wart' variants */
 /* NB unnecessary to include attachment points for tone positions as tones shown by letter not position in Chuxiong, but here anyway */
-  gBaChux = postscript("miao_ba.chux");  // U+16F01 Chuxiong·𖼁
-  gMhaChux = postscript("miao_mha.chux");  // U+16F05 Chuxiong·𖼅
-  gVfaChux = postscript("miao_vfa.chux");  // U+16F09 Chuxiong·𖼉
-  gDaChux = postscript("miao_da.chux");  // U+16F0B Chuxiong·𖼋
-  gDdaChux = postscript("miao_dda.chux");  // U+16F0F Chuxiong·𖼏
-  gNhaChux = postscript("miao_nha.chux");  // U+16F11 Chuxiong·𖼑
-  gNnhaChux = postscript("miao_nnha.chux");  // U+16F15 Chuxiong·𖼕
-  gLyaChux = postscript("miao_lya.chux");  // U+16F17 Chuxiong·𖼗
-  gLhyaChux = postscript("miao_lhya.chux");  // U+16F19 Chuxiong·𖼙
-  gDlhaChux = postscript("miao_dlha.chux");  // U+16F1B Chuxiong·𖼛
-  gDlhyaChux = postscript("miao_dlhya.chux");  // U+16F1D Chuxiong·𖼝
-  gGaChux = postscript("miao_ga.chux");  // U+16F1F Chuxiong·𖼟
-  gQgaChux = postscript("miao_qga.chux");  // U+16F22 Chuxiong·𖼢
-  gNghaChux = postscript("miao_ngha.chux");  // U+16F24 Chuxiong·𖼤
-  gGhhaChux = postscript("miao_ghha.chux");  // U+16F29 Chuxiong·𖼩
-  gDzzaChux = postscript("miao_dzza.chux");  // U+16F2B Chuxiong·𖼫
-  gTshaChux = postscript("miao_tsha.chux");  // U+16F2E Chuxiong·𖼮
-  gTshaYiChux = postscript("miao_yi_tsha.chux");  // U+16F30 Chuxiong·𖼰
-  gZshaChux = postscript("miao_zsha.chux");  // U+16F36 Chuxiong·𖼶
-  gDzaChux = postscript("miao_dza.chux");  // U+16F38 Chuxiong·𖼸
-  gZsaChux = postscript("miao_zsa.chux");  // U+16F3C Chuxiong·𖼼
-  gZzsaChux = postscript("miao_zzsa.chux");  // U+16F3E Chuxiong·𖼾
-  gZzsyaChux = postscript("miao_zzsya.chux");  // U+16F41 Chuxiong·𖽁
-  gHhaChux = postscript("miao_hha.chux");  // U+16F44 Chuxiong·𖽄
+  gBaChux = postscript("miao_ba.chux");  // U+16F01 Chuxiong·?
+  gMhaChux = postscript("miao_mha.chux");  // U+16F05 Chuxiong·?
+  gVfaChux = postscript("miao_vfa.chux");  // U+16F09 Chuxiong·?
+  gDaChux = postscript("miao_da.chux");  // U+16F0B Chuxiong·?
+  gDdaChux = postscript("miao_dda.chux");  // U+16F0F Chuxiong·?
+  gNhaChux = postscript("miao_nha.chux");  // U+16F11 Chuxiong·?
+  gNnhaChux = postscript("miao_nnha.chux");  // U+16F15 Chuxiong·?
+  gLyaChux = postscript("miao_lya.chux");  // U+16F17 Chuxiong·?
+  gLhyaChux = postscript("miao_lhya.chux");  // U+16F19 Chuxiong·?
+  gDlhaChux = postscript("miao_dlha.chux");  // U+16F1B Chuxiong·?
+  gDlhyaChux = postscript("miao_dlhya.chux");  // U+16F1D Chuxiong·?
+  gGaChux = postscript("miao_ga.chux");  // U+16F1F Chuxiong·?
+  gQgaChux = postscript("miao_qga.chux");  // U+16F22 Chuxiong·?
+  gNghaChux = postscript("miao_ngha.chux");  // U+16F24 Chuxiong·?
+  gGhhaChux = postscript("miao_ghha.chux");  // U+16F29 Chuxiong·?
+  gDzzaChux = postscript("miao_dzza.chux");  // U+16F2B Chuxiong·?
+  gNyhaChux = postscript("miao_nyha.chux");  // U+16F2D Chuxiong·?
+  gDzhaChux = postscript("miao_dzha.chux");  // U+16F2F Chuxiong·?
+  gZshaChux = postscript("miao_zsha.chux");  // U+16F36 Chuxiong·?
+  gDzaChux = postscript("miao_dza.chux");  // U+16F38 Chuxiong·?
+  gZsaChux = postscript("miao_zsa.chux");  // U+16F3C Chuxiong·?
+  gZzsaChux = postscript("miao_zzsa.chux");  // U+16F3E Chuxiong·?
+  gZzsyaChux = postscript("miao_zzsya.chux");  // U+16F41 Chuxiong·?
+  gHhaChux = postscript("miao_hha.chux");  // U+16F44 Chuxiong·?
 
 /* main 69 initials in unicode block */
   clsInitStd = (
@@ -142,8 +142,8 @@ gZzya, gZzsya, gWa, gAh, gHha
                 gDa, gDda, gNha, gNnha,
                 gLya, gLhya, gDlha, gDlhya,
                 gGa, gQga, gNgha,
-                gGhha, gDzza, gTsha,
-                gTshaYi, gZsha, gDza, gZsa,
+                gGhha, gDzza, gNyha,
+                gDzha, gZsha, gDza, gZsa,
                 gZzsa, gZzsya, gHha);
 
 /* Chuxiong 'wart' class */
@@ -151,46 +151,46 @@ gZzya, gZzsya, gWa, gAh, gHha
                  gDaChux, gDdaChux, gNhaChux, gNnhaChux,
                  gLyaChux, gLhyaChux, gDlhaChux, gDlhyaChux,
                  gGaChux, gQgaChux, gNghaChux,
-                 gGhhaChux, gDzzaChux, gTshaChux,
-                 gTshaYiChux, gZshaChux, gDzaChux, gZsaChux,
+                 gGhhaChux, gDzzaChux, gNyhaChux,
+                 gDzhaChux, gZshaChux, gDzaChux, gZsaChux,
                  gZzsaChux, gZzsyaChux, gHhaChux);
 
 /* digraphs of initials with aspiration mark on the left (ma and na based letters) */
 /* simpler than using attachment points in order to guard left space, so that asp mark doesn't hang too far over */
-  gMaAspL = postscript("miao_ma.aspl");  // U+16F04·𖼄
-  gMhaAspL = postscript("miao_mha.aspl");  // U+16F05·𖼅
-  gMaArchAspL = postscript("miao_arch_ma.aspl")  // U+16F06·𖼆
+  gMaAspL = postscript("miao_ma.aspl");  // U+16F04·?
+  gMhaAspL = postscript("miao_mha.aspl");  // U+16F05·?
+  gMaArchAspL = postscript("miao_arch_ma.aspl")  // U+16F06·?
     { aboveNormS = point(bb.width/2+10m, bb.top+90m-44m) ;
       aboveTopS  = point(bb.width/2+10m, bb.top+320m-44m) ;
       aboveDescS = point(bb.width/2+10m, bb.top+340m-44m) ;
       belowNormS = point(bb.width/2+10m, bb.bottom-320m) ;
       belowTopS  = point(bb.width/2+10m, bb.bottom-90m) ;
       belowDescS = point(bb.width/2+10m, bb.bottom-70m) } ;
-  gNaAspL = postscript("miao_na.aspl");  // U+16F10·𖼐
-  gNhaAspL = postscript("miao_nha.aspl");  // U+16F11·𖼑
-  gNnaYiAspL = postscript("miao_yi_nna.aspl");  // U+16F12·𖼒
-  gNaArchAspL = postscript("miao_arch_na.aspl")  // U+16F13·𖼓
+  gNaAspL = postscript("miao_na.aspl");  // U+16F10·?
+  gNhaAspL = postscript("miao_nha.aspl");  // U+16F11·?
+  gNnaYiAspL = postscript("miao_yi_nna.aspl");  // U+16F12·?
+  gNaArchAspL = postscript("miao_arch_na.aspl")  // U+16F13·?
     { aboveNormS = point(bb.width/2+50m, bb.top+90m-44m) ;
       aboveTopS  = point(bb.width/2+50m, bb.top+320m-44m) ;
       aboveDescS = point(bb.width/2+50m, bb.top+340m-44m) ;
       belowNormS = point(bb.width/2+50m, bb.bottom-320m) ;
       belowTopS  = point(bb.width/2+50m, bb.bottom-90m) ;
       belowDescS = point(bb.width/2+50m, bb.bottom-70m) } ;
-  gNnaAspL = postscript("miao_nna.aspl");  // U+16F14·𖼔
-  gNnhaAspL = postscript("miao_nnha.aspl");  // U+16F15·𖼕
-  gNgaAspL = postscript("miao_nga.aspl");  // U+16F23·𖼣
-  gNghaAspL = postscript("miao_ngha.aspl");  // U+16F24·𖼤
-  gNgaArchAspL = postscript("miao_arch_nga.aspl")  // U+16F25·𖼥
+  gNnaAspL = postscript("miao_nna.aspl");  // U+16F14·?
+  gNnhaAspL = postscript("miao_nnha.aspl");  // U+16F15·?
+  gNgaAspL = postscript("miao_nga.aspl");  // U+16F23·?
+  gNghaAspL = postscript("miao_ngha.aspl");  // U+16F24·?
+  gNgaArchAspL = postscript("miao_arch_nga.aspl")  // U+16F25·?
     { aboveNormS = point(bb.width/2+60m, bb.top+90m-44m) ;
       aboveTopS  = point(bb.width/2+60m, bb.top+320m-44m) ;
       aboveDescS = point(bb.width/2+60m, bb.top+340m-44m) ;
       belowNormS = point(bb.width/2+60m, bb.bottom-320m) ;
       belowTopS  = point(bb.width/2+60m, bb.bottom-90m) ;
       belowDescS = point(bb.width/2+60m, bb.bottom-70m) } ;
-  gMhaChuxAspL = postscript("miao_mha.chux.aspl");  // U+16F05 Chuxiong·𖼅
-  gNhaChuxAspL = postscript("miao_nha.chux.aspl");  // U+16F11 Chuxiong·𖼑
-  gNnhaChuxAspL = postscript("miao_nnha.chux.aspl");  // U+16F15 Chuxiong·𖼕
-  gNghaChuxAspL = postscript("miao_ngha.chux.aspl");  // U+16F24 Chuxiong·𖼤
+  gMhaChuxAspL = postscript("miao_mha.chux.aspl");  // U+16F05 Chuxiong·?
+  gNhaChuxAspL = postscript("miao_nha.chux.aspl");  // U+16F11 Chuxiong·?
+  gNnhaChuxAspL = postscript("miao_nnha.chux.aspl");  // U+16F15 Chuxiong·?
+  gNghaChuxAspL = postscript("miao_ngha.chux.aspl");  // U+16F24 Chuxiong·?
 
   clsInitAspL = (gMaAspL, gMhaAspL, gMaArchAspL,
                  gNaAspL, gNhaAspL, gNnaYiAspL,
@@ -233,8 +233,8 @@ gBaChux,   gVfaChux,
 gDaChux, gDdaChux,
 gLyaChux, gLhyaChux, gDlhaChux, gDlhyaChux,
 gGaChux, gQgaChux,
-gGhhaChux, gDzzaChux, gTshaChux,
-gTshaYiChux, gZshaChux, gDzaChux, gZsaChux,
+gGhhaChux, gDzzaChux, gNyhaChux,
+gDzhaChux, gZshaChux, gDzaChux, gZsaChux,
 gZzsaChux, gZzsyaChux, gHhaChux
   );
 
@@ -276,8 +276,8 @@ gZzsaChux, gZzsyaChux, gHhaChux
                        gDaChux, gDdaChux, gNhaChux, gNnhaChux,
                        gLyaChux,
                        gGaChux, gQgaChux, gNghaChux,
-                       gGhhaChux, gDzzaChux, gTshaChux,
-                       gTshaYiChux, gZshaChux,   gZsaChux,
+                       gGhhaChux, gDzzaChux, gNyhaChux,
+                       gDzhaChux, gZshaChux,   gZsaChux,
                        gHhaChux,
                        gNaAspL, gNhaAspL, gNnaYiAspL,
                        gMhaChuxAspL,
@@ -312,7 +312,7 @@ gZzsaChux, gZzsyaChux, gHhaChux
                       gAh, gHha,
                       gBaChux, gDdaChux,
                       gNhaChux, gNnhaChux, gGaChux, gNghaChux,
-                      gGhhaChux, gTshaChux, gTshaYiChux,
+                      gGhhaChux, gNyhaChux, gDzhaChux,
                       gDzaChux, gZshaChux, gZsaChux
                       gNhaChuxAspL, gNnhaChuxAspL,
                       gNghaChuxAspL)
@@ -368,8 +368,8 @@ gZzsaChux, gZzsyaChux, gHhaChux
                     gDaChux, gDdaChux, gNhaChux, gNnhaChux,
                     gLyaChux, gLhyaChux, gDlhaChux, gDlhyaChux,
                     gGaChux, gQgaChux, gNghaChux,
-                    gGhhaChux, gDzzaChux, gTshaChux,
-                    gTshaYiChux, gZshaChux, gDzaChux, gZsaChux,
+                    gGhhaChux, gDzzaChux, gNyhaChux,
+                    gDzhaChux, gZshaChux, gDzaChux, gZsaChux,
                     gZzsaChux, gZzsyaChux, gHhaChux)
     { aboveNormS = point(bb.width/2-30m, bb.top+90m) ;
       aboveTopS  = point(bb.width/2-30m, bb.top+320m) ;
@@ -454,10 +454,10 @@ gZzsaChux, gZzsyaChux, gHhaChux
       belowDescS = point(bb.width/2+10m, bb.bottom-70m) } ;
 
 /* modifiers */
-  gNasal = postscript("miao_nasal");  // U+16F50·𖽐
-  gAsp = postscript("miao_asp");  // U+16F51·	𖽑
-  gVoiRef = postscript("miao_ref_voice");  // U+16F52·	𖽒
-  gAspRef = postscript("miao_ref_asp");  // U+16F53·	𖽓
+  gNasal = postscript("miao_nasal");  // U+16F50·?
+  gAsp = postscript("miao_asp");  // U+16F51·	?
+  gVoiRef = postscript("miao_ref_voice");  // U+16F52·	?
+  gAspRef = postscript("miao_ref_asp");  // U+16F53·	?
 
   clsAsp = (gAsp, gVoiRef, gAspRef);
   clsAspHi = (gAsp, gVoiRef)
@@ -466,95 +466,95 @@ gZzsaChux, gZzsyaChux, gHhaChux
     { aspLoM = point(bb.left, bb.bottom) } ;
 
 /* finals */
-  gA = postscript("miao_a");  // U+16F54·	𖽔
+  gA = postscript("miao_a");  // U+16F54·	?
     /* gA height 59m compared to standard height 219m */
-  gAa = postscript("miao_aa");  // U+16F55·	𖽕
-  gAhh = postscript("miao_ahh");  // U+16F56·	𖽖
-  gAn = postscript("miao_an");  // U+16F57·	𖽗
-  gAng = postscript("miao_ang");  // U+16F58·	𖽘
-  gO = postscript("miao_o");  // U+16F59·	𖽙
-  gOo = postscript("miao_oo");  // U+16F5A·	𖽚
-  gWo = postscript("miao_wo");  // U+16F5B·	𖽛
-  gW = postscript("miao_w");  // U+16F5C·	𖽜
-  gE = postscript("miao_e");  // U+16F5D·	𖽝
-  gEn = postscript("miao_en");  // U+16F5E·	𖽞
-  gEng = postscript("miao_eng");  // U+16F5F·	𖽟
-  gOey = postscript("miao_oey");  // U+16F60·	𖽠
-  gI = postscript("miao_i");  // U+16F61·	𖽡
-  gIa = postscript("miao_ia");  // U+16F62·	𖽢
-  gIan = postscript("miao_ian");  // U+16F63·	𖽣
-  gIang = postscript("miao_iang");  // U+16F64·	𖽤
-  gIo = postscript("miao_io");  // U+16F65·	𖽥
-  gIe = postscript("miao_ie");  // U+16F66·	𖽦
-  gIi = postscript("miao_ii");  // U+16F67·	𖽧
-  gIu = postscript("miao_iu");  // U+16F68·	𖽨
-  gIng = postscript("miao_ing");  // U+16F69·	𖽩
-  gU = postscript("miao_u");  // U+16F6A·	𖽪
-  gUa = postscript("miao_ua");  // U+16F6B·	𖽫
-  gUan = postscript("miao_uan");  // U+16F6C·	𖽬
-  gUang = postscript("miao_uang");  // U+16F6D·	𖽭
-  gUu = postscript("miao_uu");  // U+16F6E·	𖽮
-  gUei = postscript("miao_uei");  // U+16F6F·	𖽯
-  gUng = postscript("miao_ung");  // U+16F70·	𖽰
-  gY = postscript("miao_y");  // U+16F71·	𖽱
-  gYi = postscript("miao_yi");  // U+16F72·	𖽲
-  gAe = postscript("miao_ae");  // U+16F73·	𖽳
-  gAee = postscript("miao_aee");  // U+16F74·	𖽴
-  gErr = postscript("miao_err");  // U+16F75·	𖽵
-  gErrRnd = postscript("miao_round_err");  // U+16F76·	𖽶
-  gEr = postscript("miao_er");  // U+16F77·	𖽷
-  gErRnd = postscript("miao_round_er");  // U+16F78·	𖽸
-  gAi = postscript("miao_ai");  // U+16F79·	𖽹
-  gEi = postscript("miao_ei");  // U+16F7A·	𖽺
-  gAu = postscript("miao_au");  // U+16F7B·	𖽻
-  gOu = postscript("miao_ou");  // U+16F7C·	𖽼
-  gN = postscript("miao_n");  // U+16F7D·	𖽽
-  gNg = postscript("miao_ng");  // U+16F7E·	𖽾
+  gAa = postscript("miao_aa");  // U+16F55·	?
+  gAhh = postscript("miao_ahh");  // U+16F56·	?
+  gAn = postscript("miao_an");  // U+16F57·	?
+  gAng = postscript("miao_ang");  // U+16F58·	?
+  gO = postscript("miao_o");  // U+16F59·	?
+  gOo = postscript("miao_oo");  // U+16F5A·	?
+  gWo = postscript("miao_wo");  // U+16F5B·	?
+  gW = postscript("miao_w");  // U+16F5C·	?
+  gE = postscript("miao_e");  // U+16F5D·	?
+  gEn = postscript("miao_en");  // U+16F5E·	?
+  gEng = postscript("miao_eng");  // U+16F5F·	?
+  gOey = postscript("miao_oey");  // U+16F60·	?
+  gI = postscript("miao_i");  // U+16F61·	?
+  gIa = postscript("miao_ia");  // U+16F62·	?
+  gIan = postscript("miao_ian");  // U+16F63·	?
+  gIang = postscript("miao_iang");  // U+16F64·	?
+  gIo = postscript("miao_io");  // U+16F65·	?
+  gIe = postscript("miao_ie");  // U+16F66·	?
+  gIi = postscript("miao_ii");  // U+16F67·	?
+  gIu = postscript("miao_iu");  // U+16F68·	?
+  gIng = postscript("miao_ing");  // U+16F69·	?
+  gU = postscript("miao_u");  // U+16F6A·	?
+  gUa = postscript("miao_ua");  // U+16F6B·	?
+  gUan = postscript("miao_uan");  // U+16F6C·	?
+  gUang = postscript("miao_uang");  // U+16F6D·	?
+  gUu = postscript("miao_uu");  // U+16F6E·	?
+  gUei = postscript("miao_uei");  // U+16F6F·	?
+  gUng = postscript("miao_ung");  // U+16F70·	?
+  gY = postscript("miao_y");  // U+16F71·	?
+  gYi = postscript("miao_yi");  // U+16F72·	?
+  gAe = postscript("miao_ae");  // U+16F73·	?
+  gAee = postscript("miao_aee");  // U+16F74·	?
+  gErr = postscript("miao_err");  // U+16F75·	?
+  gErrRnd = postscript("miao_round_err");  // U+16F76·	?
+  gEr = postscript("miao_er");  // U+16F77·	?
+  gErRnd = postscript("miao_round_er");  // U+16F78·	?
+  gAi = postscript("miao_ai");  // U+16F79·	?
+  gEi = postscript("miao_ei");  // U+16F7A·	?
+  gAu = postscript("miao_au");  // U+16F7B·	?
+  gOu = postscript("miao_ou");  // U+16F7C·	?
+  gN = postscript("miao_n");  // U+16F7D·	?
+  gNg = postscript("miao_ng");  // U+16F7E·	?
 
 /* finals compressed on y-axis for above and below positions */
-  gAYcmp = postscript("miao_a.ycmp");  // U+16F54 compressed·	𖽔
-  gAaYcmp = postscript("miao_aa.ycmp");  // U+16F55 compressed·	𖽕
-  gAhhYcmp = postscript("miao_ahh.ycmp");  // U+16F56 compressed·	𖽖
-  gAnYcmp = postscript("miao_an.ycmp");  // U+16F57 compressed·	𖽗
-  gAngYcmp = postscript("miao_ang.ycmp");  // U+16F58 compressed·	𖽘
-  gOYcmp = postscript("miao_o.ycmp");  // U+16F59 compressed·	𖽙
-  gOoYcmp = postscript("miao_oo.ycmp");  // U+16F5A compressed·	𖽚
-  gWoYcmp = postscript("miao_wo.ycmp");  // U+16F5B compressed·	𖽛
-  gWYcmp = postscript("miao_w.ycmp");  // U+16F5C compressed·	𖽜
-  gEYcmp = postscript("miao_e.ycmp");  // U+16F5D compressed·	𖽝
-  gEnYcmp = postscript("miao_en.ycmp");  // U+16F5E compressed·	𖽞
-  gEngYcmp = postscript("miao_eng.ycmp");  // U+16F5F compressed·	𖽟
-  gOeyYcmp = postscript("miao_oey.ycmp");  // U+16F60 compressed·	𖽠
-  gIYcmp = postscript("miao_i.ycmp");  // U+16F61 compressed·	𖽡
-  gIaYcmp = postscript("miao_ia.ycmp");  // U+16F62 compressed·	𖽢
-  gIanYcmp = postscript("miao_ian.ycmp");  // U+16F63 compressed·	𖽣
-  gIangYcmp = postscript("miao_iang.ycmp");  // U+16F64 compressed·	𖽤
-  gIoYcmp = postscript("miao_io.ycmp");  // U+16F65 compressed·	𖽥
-  gIeYcmp = postscript("miao_ie.ycmp");  // U+16F66 compressed·	𖽦
-  gIiYcmp = postscript("miao_ii.ycmp");  // U+16F67 compressed·	𖽧
-  gIuYcmp = postscript("miao_iu.ycmp");  // U+16F68 compressed·	𖽨
-  gIngYcmp = postscript("miao_ing.ycmp");  // U+16F69 compressed·	𖽩
-  gUYcmp = postscript("miao_u.ycmp");  // U+16F6A compressed·	𖽪
-  gUaYcmp = postscript("miao_ua.ycmp");  // U+16F6B compressed·	𖽫
-  gUanYcmp = postscript("miao_uan.ycmp");  // U+16F6C compressed·	𖽬
-  gUangYcmp = postscript("miao_uang.ycmp");  // U+16F6D compressed·	𖽭
-  gUuYcmp = postscript("miao_uu.ycmp");  // U+16F6E compressed·	𖽮
-  gUeiYcmp = postscript("miao_uei.ycmp");  // U+16F6F compressed·	𖽯
-  gUngYcmp = postscript("miao_ung.ycmp");  // U+16F70 compressed·	𖽰
-  gYYcmp = postscript("miao_y.ycmp");  // U+16F71 compressed·	𖽱
-  gYiYcmp = postscript("miao_yi.ycmp");  // U+16F72 compressed·	𖽲
-  gAeYcmp = postscript("miao_ae.ycmp");  // U+16F73 compressed·	𖽳
-  gAeeYcmp = postscript("miao_aee.ycmp");  // U+16F74 compressed·	𖽴
-  gErrYcmp = postscript("miao_err.ycmp");  // U+16F75 compressed·	𖽵
-  gErrRndYcmp = postscript("miao_round_err.ycmp");  // U+16F76 compressed·	𖽶
-  gErYcmp = postscript("miao_er.ycmp");  // U+16F77 compressed·	𖽷
-  gErRndYcmp = postscript("miao_round_er.ycmp");  // U+16F78 compressed·	𖽸
-  gAiYcmp = postscript("miao_ai.ycmp");  // U+16F79 compressed·	𖽹
-  gEiYcmp = postscript("miao_ei.ycmp");  // U+16F7A compressed·	𖽺
-  gAuYcmp = postscript("miao_au.ycmp");  // U+16F7B compressed·	𖽻
-  gOuYcmp = postscript("miao_ou.ycmp");  // U+16F7C compressed·	𖽼
-  gNYcmp = postscript("miao_n.ycmp");  // U+16F7D compressed·	𖽽
-  gNgYcmp = postscript("miao_ng.ycmp");  // U+16F7E compressed·	𖽾
+  gAYcmp = postscript("miao_a.ycmp");  // U+16F54 compressed·	?
+  gAaYcmp = postscript("miao_aa.ycmp");  // U+16F55 compressed·	?
+  gAhhYcmp = postscript("miao_ahh.ycmp");  // U+16F56 compressed·	?
+  gAnYcmp = postscript("miao_an.ycmp");  // U+16F57 compressed·	?
+  gAngYcmp = postscript("miao_ang.ycmp");  // U+16F58 compressed·	?
+  gOYcmp = postscript("miao_o.ycmp");  // U+16F59 compressed·	?
+  gOoYcmp = postscript("miao_oo.ycmp");  // U+16F5A compressed·	?
+  gWoYcmp = postscript("miao_wo.ycmp");  // U+16F5B compressed·	?
+  gWYcmp = postscript("miao_w.ycmp");  // U+16F5C compressed·	?
+  gEYcmp = postscript("miao_e.ycmp");  // U+16F5D compressed·	?
+  gEnYcmp = postscript("miao_en.ycmp");  // U+16F5E compressed·	?
+  gEngYcmp = postscript("miao_eng.ycmp");  // U+16F5F compressed·	?
+  gOeyYcmp = postscript("miao_oey.ycmp");  // U+16F60 compressed·	?
+  gIYcmp = postscript("miao_i.ycmp");  // U+16F61 compressed·	?
+  gIaYcmp = postscript("miao_ia.ycmp");  // U+16F62 compressed·	?
+  gIanYcmp = postscript("miao_ian.ycmp");  // U+16F63 compressed·	?
+  gIangYcmp = postscript("miao_iang.ycmp");  // U+16F64 compressed·	?
+  gIoYcmp = postscript("miao_io.ycmp");  // U+16F65 compressed·	?
+  gIeYcmp = postscript("miao_ie.ycmp");  // U+16F66 compressed·	?
+  gIiYcmp = postscript("miao_ii.ycmp");  // U+16F67 compressed·	?
+  gIuYcmp = postscript("miao_iu.ycmp");  // U+16F68 compressed·	?
+  gIngYcmp = postscript("miao_ing.ycmp");  // U+16F69 compressed·	?
+  gUYcmp = postscript("miao_u.ycmp");  // U+16F6A compressed·	?
+  gUaYcmp = postscript("miao_ua.ycmp");  // U+16F6B compressed·	?
+  gUanYcmp = postscript("miao_uan.ycmp");  // U+16F6C compressed·	?
+  gUangYcmp = postscript("miao_uang.ycmp");  // U+16F6D compressed·	?
+  gUuYcmp = postscript("miao_uu.ycmp");  // U+16F6E compressed·	?
+  gUeiYcmp = postscript("miao_uei.ycmp");  // U+16F6F compressed·	?
+  gUngYcmp = postscript("miao_ung.ycmp");  // U+16F70 compressed·	?
+  gYYcmp = postscript("miao_y.ycmp");  // U+16F71 compressed·	?
+  gYiYcmp = postscript("miao_yi.ycmp");  // U+16F72 compressed·	?
+  gAeYcmp = postscript("miao_ae.ycmp");  // U+16F73 compressed·	?
+  gAeeYcmp = postscript("miao_aee.ycmp");  // U+16F74 compressed·	?
+  gErrYcmp = postscript("miao_err.ycmp");  // U+16F75 compressed·	?
+  gErrRndYcmp = postscript("miao_round_err.ycmp");  // U+16F76 compressed·	?
+  gErYcmp = postscript("miao_er.ycmp");  // U+16F77 compressed·	?
+  gErRndYcmp = postscript("miao_round_er.ycmp");  // U+16F78 compressed·	?
+  gAiYcmp = postscript("miao_ai.ycmp");  // U+16F79 compressed·	?
+  gEiYcmp = postscript("miao_ei.ycmp");  // U+16F7A compressed·	?
+  gAuYcmp = postscript("miao_au.ycmp");  // U+16F7B compressed·	?
+  gOuYcmp = postscript("miao_ou.ycmp");  // U+16F7C compressed·	?
+  gNYcmp = postscript("miao_n.ycmp");  // U+16F7D compressed·	?
+  gNgYcmp = postscript("miao_ng.ycmp");  // U+16F7E compressed·	?
 
   clsFina = (gA, gAa, gAhh, gAn, gAng,
              gO, gOo, gWo, gW,
@@ -622,35 +622,35 @@ gZzsaChux, gZzsyaChux, gHhaChux
       DescR = point(bb.left-10m, bb.top) } ;
 
 /* tone positions */
-  gRightMark = postscript("miao_tone_right");  // U+16F8F·	𖾏
-  gTopRightMark = postscript("miao_tone_top_right");  // U+16F90·	𖾐
-  gAboveMark = postscript("miao_tone_above");  // U+16F91·	𖾑
-  gBelowMark = postscript("miao_tone_below");  // U+16F92·	𖾒
+  gRightMark = postscript("miao_tone_right");  // U+16F8F·	?
+  gTopRightMark = postscript("miao_tone_top_right");  // U+16F90·	?
+  gAboveMark = postscript("miao_tone_above");  // U+16F91·	?
+  gBelowMark = postscript("miao_tone_below");  // U+16F92·	?
 
-  gRight = postscript("miao_tone_right.blnk");  // U+16F8F blank·	𖾏
-  gTopRight = postscript("miao_tone_top_right.blnk");  // U+16F90 blank·	𖾐
-  gAbove = postscript("miao_tone_above.blnk");  // U+16F91 blank·	𖾑
-  gBelow = postscript("miao_tone_below.blnk");  // U+16F92 blank·	𖾒
+  gRight = postscript("miao_tone_right.blnk");  // U+16F8F blank·	?
+  gTopRight = postscript("miao_tone_top_right.blnk");  // U+16F90 blank·	?
+  gAbove = postscript("miao_tone_above.blnk");  // U+16F91 blank·	?
+  gBelow = postscript("miao_tone_below.blnk");  // U+16F92 blank·	?
 
   clsPosMark = (gRightMark, gTopRightMark, gAboveMark, gBelowMark);
   clsPos     = (gRight, gTopRight, gAbove, gBelow);
 
 /* tone letters */
 /* Chuxiong Orthography*/
-  gTone2 = postscript("miao_tone2");  // U+16F93·𖾓
-  gTone3 = postscript("miao_tone3");  // U+16F94·𖾔
-  gTone4 = postscript("miao_tone4");  // U+16F95·𖾕
-  gTone5 = postscript("miao_tone5");  // U+16F96·𖾖
-  gTone6 = postscript("miao_tone6");  // U+16F97·𖾗
-  gTone7 = postscript("miao_tone7");  // U+16F98·𖾘
-  gTone8 = postscript("miao_tone8");  // U+16F99·𖾙
+  gTone2 = postscript("miao_tone2");  // U+16F93·?
+  gTone3 = postscript("miao_tone3");  // U+16F94·?
+  gTone4 = postscript("miao_tone4");  // U+16F95·?
+  gTone5 = postscript("miao_tone5");  // U+16F96·?
+  gTone6 = postscript("miao_tone6");  // U+16F97·?
+  gTone7 = postscript("miao_tone7");  // U+16F98·?
+  gTone8 = postscript("miao_tone8");  // U+16F99·?
 /* Post-1949 Reform */
-  gTone1Ref = postscript("miao_ref_tone1");  // U+16F9A·𖾚
-  gTone2Ref = postscript("miao_ref_tone2");  // U+16F9B·𖾛
-  gTone4Ref = postscript("miao_ref_tone4");  // U+16F9C·𖾜
-  gTone5Ref = postscript("miao_ref_tone5");  // U+16F9D·𖾝
-  gTone6Ref = postscript("miao_ref_tone6");  // U+16F9E·𖾞
-  gTone8Ref = postscript("miao_ref_tone8");  // U+16F9F·𖾟
+  gTone1Ref = postscript("miao_ref_tone1");  // U+16F9A·?
+  gTone2Ref = postscript("miao_ref_tone2");  // U+16F9B·?
+  gTone4Ref = postscript("miao_ref_tone4");  // U+16F9C·?
+  gTone5Ref = postscript("miao_ref_tone5");  // U+16F9D·?
+  gTone6Ref = postscript("miao_ref_tone6");  // U+16F9E·?
+  gTone8Ref = postscript("miao_ref_tone8");  // U+16F9F·?
 
   clsTone = (gTone2, gTone3, gTone4, gTone5,
              gTone6, gTone7, gTone8,
