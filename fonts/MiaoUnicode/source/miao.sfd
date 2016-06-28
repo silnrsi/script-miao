@@ -48597,6 +48597,29 @@ LayerCount: 2
 Back
 Fore
 SplineSet
+254 71 m 1,0,-1
+ 254 656 l 1,1,-1
+ 536 656 l 1,2,-1
+ 536 586 l 1,3,-1
+ 338 586 l 1,4,-1
+ 338 71 l 1,5,-1
+ 536 71 l 1,6,-1
+ 536 0 l 1,7,-1
+ 56 0 l 1,8,-1
+ 56 71 l 1,9,-1
+ 254 71 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: miao_nyha
+Encoding: 93997 93997 1207
+Width: 496
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
 419 130 m 1,0,-1
  470 76 l 1,1,2
  454 59 454 59 435 44 c 0,3,4
@@ -48644,9 +48667,9 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: miao_nyha
-Encoding: 93997 93997 1207
-Width: 496
+StartChar: miao_tsha
+Encoding: 93998 93998 1208
+Width: 558
 Flags: W
 LayerCount: 2
 Back
@@ -48714,9 +48737,9 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: miao_tsha
-Encoding: 93998 93998 1208
-Width: 558
+StartChar: miao_dzha
+Encoding: 93999 93999 1209
+Width: 506
 Flags: W
 LayerCount: 2
 Back
@@ -48735,9 +48758,9 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: miao_dzha
-Encoding: 93999 93999 1209
-Width: 506
+StartChar: miao_yi_tsha
+Encoding: 94000 94000 1210
+Width: 579
 Flags: W
 LayerCount: 2
 Back
@@ -48775,29 +48798,6 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: miao_yi_tsha
-Encoding: 94000 94000 1210
-Width: 579
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-520 656 m 1,0,-1
- 520 586 l 1,1,-1
- 233 586 l 1,2,-1
- 233 71 l 1,3,-1
- 520 71 l 1,4,-1
- 520 0 l 1,5,-1
- 150 0 l 1,6,-1
- 150 586 l 1,7,-1
- 55 586 l 1,8,-1
- 55 656 l 1,9,-1
- 520 656 l 1,0,-1
-EndSplineSet
-Validated: 1
-EndChar
-
 StartChar: miao_yi_dzha
 Encoding: 94001 94001 1211
 Width: 511
@@ -48829,17 +48829,17 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-254 71 m 1,0,-1
- 254 656 l 1,1,-1
- 536 656 l 1,2,-1
- 536 586 l 1,3,-1
- 338 586 l 1,4,-1
- 338 71 l 1,5,-1
- 536 71 l 1,6,-1
- 536 0 l 1,7,-1
- 56 0 l 1,8,-1
- 56 71 l 1,9,-1
- 254 71 l 1,0,-1
+520 656 m 1,0,-1
+ 520 586 l 1,1,-1
+ 233 586 l 1,2,-1
+ 233 71 l 1,3,-1
+ 520 71 l 1,4,-1
+ 520 0 l 1,5,-1
+ 150 0 l 1,6,-1
+ 150 586 l 1,7,-1
+ 55 586 l 1,8,-1
+ 55 656 l 1,9,-1
+ 520 656 l 1,0,-1
 EndSplineSet
 Validated: 1
 EndChar
@@ -52500,7 +52500,7 @@ Refer: 1204 93994 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: miao_nyha.chux
+StartChar: miao_tsha.chux
 Encoding: 1114611 -1 1361
 Width: 668
 Flags: W
@@ -52508,11 +52508,11 @@ LayerCount: 2
 Back
 Fore
 Refer: 1385 -1 N 1 0 0 1 527 0 2
-Refer: 1206 93996 N 1 0 0 1 0 0 2
+Refer: 1207 93997 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: miao_dzha.chux
+StartChar: miao_yi_tsha.chux
 Encoding: 1114612 -1 1362
 Width: 676
 Flags: W
@@ -52520,7 +52520,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 1385 -1 N 1 0 0 1 535 0 2
-Refer: 1208 93998 N 1 0 0 1 0 0 2
+Refer: 1209 93999 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 

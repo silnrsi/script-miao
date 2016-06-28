@@ -100,8 +100,8 @@ table(glyph) {AttributeOverride = true};
   gNghaChux = postscript("miao_ngha.chux");  // U+16F24 Chuxiong·𖼤
   gGhhaChux = postscript("miao_ghha.chux");  // U+16F29 Chuxiong·𖼩
   gDzzaChux = postscript("miao_dzza.chux");  // U+16F2B Chuxiong·𖼫
-  gNyhaChux = postscript("miao_nyha.chux");  // U+16F2D Chuxiong·𖼭
-  gDzhaChux = postscript("miao_dzha.chux");  // U+16F2F Chuxiong·𖼯
+  gTshaChux = postscript("miao_tsha.chux");  // U+16F2E Chuxiong·𖼮
+  gTshaYiChux = postscript("miao_yi_tsha.chux");  // U+16F30 Chuxiong·𖼰
   gZshaChux = postscript("miao_zsha.chux");  // U+16F36 Chuxiong·𖼶
   gDzaChux = postscript("miao_dza.chux");  // U+16F38 Chuxiong·𖼸
   gZsaChux = postscript("miao_zsa.chux");  // U+16F3C Chuxiong·𖼼
@@ -142,8 +142,8 @@ gZzya, gZzsya, gWa, gAh, gHha
                 gDa, gDda, gNha, gNnha,
                 gLya, gLhya, gDlha, gDlhya,
                 gGa, gQga, gNgha,
-                gGhha, gDzza, gNyha,
-                gDzha, gZsha, gDza, gZsa,
+                gGhha, gDzza, gTsha,
+                gTshaYi, gZsha, gDza, gZsa,
                 gZzsa, gZzsya, gHha);
 
 /* Chuxiong 'wart' class */
@@ -151,8 +151,8 @@ gZzya, gZzsya, gWa, gAh, gHha
                  gDaChux, gDdaChux, gNhaChux, gNnhaChux,
                  gLyaChux, gLhyaChux, gDlhaChux, gDlhyaChux,
                  gGaChux, gQgaChux, gNghaChux,
-                 gGhhaChux, gDzzaChux, gNyhaChux,
-                 gDzhaChux, gZshaChux, gDzaChux, gZsaChux,
+                 gGhhaChux, gDzzaChux, gTshaChux,
+                 gTshaYiChux, gZshaChux, gDzaChux, gZsaChux,
                  gZzsaChux, gZzsyaChux, gHhaChux);
 
 /* digraphs of initials with aspiration mark on the left (ma and na based letters) */
@@ -233,8 +233,8 @@ gBaChux,   gVfaChux,
 gDaChux, gDdaChux,
 gLyaChux, gLhyaChux, gDlhaChux, gDlhyaChux,
 gGaChux, gQgaChux,
-gGhhaChux, gDzzaChux, gNyhaChux,
-gDzhaChux, gZshaChux, gDzaChux, gZsaChux,
+gGhhaChux, gDzzaChux, gTshaChux,
+gTshaYiChux, gZshaChux, gDzaChux, gZsaChux,
 gZzsaChux, gZzsyaChux, gHhaChux
   );
 
@@ -276,8 +276,8 @@ gZzsaChux, gZzsyaChux, gHhaChux
                        gDaChux, gDdaChux, gNhaChux, gNnhaChux,
                        gLyaChux,
                        gGaChux, gQgaChux, gNghaChux,
-                       gGhhaChux, gDzzaChux, gNyhaChux,
-                       gDzhaChux, gZshaChux,   gZsaChux,
+                       gGhhaChux, gDzzaChux, gTshaChux,
+                       gTshaYiChux, gZshaChux,   gZsaChux,
                        gHhaChux,
                        gNaAspL, gNhaAspL, gNnaYiAspL,
                        gMhaChuxAspL,
@@ -312,7 +312,7 @@ gZzsaChux, gZzsyaChux, gHhaChux
                       gAh, gHha,
                       gBaChux, gDdaChux,
                       gNhaChux, gNnhaChux, gGaChux, gNghaChux,
-                      gGhhaChux, gNyhaChux, gDzhaChux,
+                      gGhhaChux, gTshaChux, gTshaYiChux,
                       gDzaChux, gZshaChux, gZsaChux
                       gNhaChuxAspL, gNnhaChuxAspL,
                       gNghaChuxAspL)
@@ -368,8 +368,8 @@ gZzsaChux, gZzsyaChux, gHhaChux
                     gDaChux, gDdaChux, gNhaChux, gNnhaChux,
                     gLyaChux, gLhyaChux, gDlhaChux, gDlhyaChux,
                     gGaChux, gQgaChux, gNghaChux,
-                    gGhhaChux, gDzzaChux, gNyhaChux,
-                    gDzhaChux, gZshaChux, gDzaChux, gZsaChux,
+                    gGhhaChux, gDzzaChux, gTshaChux,
+                    gTshaYiChux, gZshaChux, gDzaChux, gZsaChux,
                     gZzsaChux, gZzsyaChux, gHhaChux)
     { aboveNormS = point(bb.width/2-30m, bb.top+90m) ;
       aboveTopS  = point(bb.width/2-30m, bb.top+320m) ;
