@@ -861,15 +861,6 @@ table(sub)
   clsFina > clsFinaYcmp / _ [clsFina? clsFina]? gAbove ; // turn final into corresponding y-axis compressed glyph when about to be positioned above initial
   clsFina > clsFinaYcmp / _ [clsFina? clsFina]? gBelow ; // turn final into corresponding y-axis compressed glyph when about to be positioned below initial
  endpass;
-
- pass(3)
-/* aspiration right feature for Miao */
-  if (aspr) // all high aspiration markers on the right
-    // do nothing
-  else // high aspiration markers on left for ma and na based letters
-    clsInitAspLStd gAsp > clsInitAspL:(1 2) _ ;
-  endif;
- endpass; //pass3
 endtable;
 
 table(pos) { MUnits = 1000 }
