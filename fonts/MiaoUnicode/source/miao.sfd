@@ -24,7 +24,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1366413349
-ModificationTime: 1476266131
+ModificationTime: 1476268225
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -787,11 +787,11 @@ EndShort
 LangName: 1033 "" "" "" "" "" "0.6 (Beta)" "" "Miao Unicode" "Philip Reimer" "Philip Reimer" "" "http://phjamr.github.io/" "" "Basic latin glyphs from Source Sans Pro (https://github.com/adobe-fonts/source-sans-pro) and copyright (c) 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.+AAoACgAA-Miao and Lisu glyphs and code copyright (c) 2013 Philip Reimer, with Reserved Font Name 'Miao Unicode'.+AA0ACgANAAoA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AA0ACgAA-This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL+AA0ACgANAAoA------------------------------------------------------------+AA0ACgAA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AA0ACgAA------------------------------------------------------------+AA0ACgANAAoA-PREAMBLE+AA0ACgAA-The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.+AA0ACgANAAoA-The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.+AA0ACgANAAoA-DEFINITIONS+AA0ACgAi-Font Software+ACIA refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.+AA0ACgANAAoAIgAA-Reserved Font Name+ACIA refers to any names specified as such after the copyright statement(s).+AA0ACgANAAoAIgAA-Original Version+ACIA refers to the collection of Font Software components as distributed by the Copyright Holder(s).+AA0ACgANAAoAIgAA-Modified Version+ACIA refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.+AA0ACgANAAoAIgAA-Author+ACIA refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.+AA0ACgANAAoA-PERMISSION & CONDITIONS+AA0ACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:+AA0ACgANAAoA-1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.+AA0ACgANAAoA-2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.+AA0ACgANAAoA-3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.+AA0ACgANAAoA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.+AA0ACgANAAoA-5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.+AA0ACgANAAoA-TERMINATION+AA0ACgAA-This license becomes null and void if any of the above conditions are not met.+AA0ACgANAAoA-DISCLAIMER+AA0ACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AA0ACgAA" "http://scripts.sil.org/ofl"
 GaspTable: 1 65535 2 0
 DesignSize: 100
-OtfFeatName: 'ss05' 1033 "Slashed zero"
-OtfFeatName: 'ss04' 1033 "Serifed I"
-OtfFeatName: 'ss03' 1033 "Alternate g"
-OtfFeatName: 'ss02' 1033 "Alternate a"
 OtfFeatName: 'ss01' 1033 "Straight l"
+OtfFeatName: 'ss02' 1033 "Alternate a"
+OtfFeatName: 'ss03' 1033 "Alternate g"
+OtfFeatName: 'ss04' 1033 "Serifed I"
+OtfFeatName: 'ss05' 1033 "Slashed zero"
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -799,7 +799,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 75
-WinInfo: 999 27 16
+WinInfo: 378 27 16
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 10485760 0 211812 105906 70604 509608 1048576 70604 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -12762,7 +12762,6 @@ Back
 Fore
 Refer: 521 8217 N 1 0 0 1 0 0 2
 Refer: 43 110 N 1 0 0 1 222 0 2
-Validated: 1
 EndChar
 
 StartChar: ograve
@@ -19725,21 +19724,20 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-187 657 m 1,0,1
- 149 632 149 632 130 604 c 128,-1,2
- 111 576 111 576 111 533 c 1,3,4
- 114 534 114 534 120 534 c 0,5,6
- 140 534 140 534 156.5 521 c 128,-1,7
- 173 508 173 508 173 483 c 0,8,9
- 173 457 173 457 158 442.5 c 128,-1,10
- 143 428 143 428 120 428 c 0,11,12
- 90 428 90 428 73.5 451 c 128,-1,13
- 57 474 57 474 57 518 c 0,14,15
- 57 578 57 578 84 622 c 128,-1,16
- 111 666 111 666 163 696 c 1,17,-1
- 187 657 l 1,0,1
+187 625 m 1,0,1
+ 149 600 149 600 130 572 c 128,-1,2
+ 111 544 111 544 111 501 c 1,3,4
+ 114 502 114 502 120 502 c 0,5,6
+ 140 502 140 502 156.5 489 c 128,-1,7
+ 173 476 173 476 173 451 c 0,8,9
+ 173 425 173 425 158 410.5 c 128,-1,10
+ 143 396 143 396 120 396 c 0,11,12
+ 90 396 90 396 73.5 419 c 128,-1,13
+ 57 442 57 442 57 486 c 0,14,15
+ 57 546 57 546 84 590 c 128,-1,16
+ 111 634 111 634 163 664 c 1,17,-1
+ 187 625 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quoteright
@@ -19761,21 +19759,20 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-63 469 m 1,0,1
- 101 494 101 494 119.5 522 c 128,-1,2
- 138 550 138 550 138 594 c 1,3,4
- 135 593 135 593 130 593 c 0,5,6
- 109 593 109 593 93 606 c 128,-1,7
- 77 619 77 619 77 643 c 0,8,9
- 77 669 77 669 92 684 c 128,-1,10
- 107 699 107 699 130 699 c 0,11,12
- 159 699 159 699 176 675.5 c 128,-1,13
- 193 652 193 652 193 608 c 0,14,15
- 193 548 193 548 165.5 504.5 c 128,-1,16
- 138 461 138 461 86 431 c 1,17,-1
- 63 469 l 1,0,1
+63 434 m 1,0,1
+ 101 459 101 459 119.5 487 c 128,-1,2
+ 138 515 138 515 138 559 c 1,3,4
+ 135 558 135 558 130 558 c 0,5,6
+ 109 558 109 558 93 571 c 128,-1,7
+ 77 584 77 584 77 608 c 0,8,9
+ 77 634 77 634 92 649 c 128,-1,10
+ 107 664 107 664 130 664 c 4,11,12
+ 159 664 159 664 176 640.5 c 128,-1,13
+ 193 617 193 617 193 573 c 0,14,15
+ 193 513 193 513 165.5 469.5 c 128,-1,16
+ 138 426 138 426 86 396 c 1,17,-1
+ 63 434 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedblleft
@@ -19787,7 +19784,6 @@ Back
 Fore
 Refer: 520 8216 N 1 0 0 1 0 0 2
 Refer: 520 8216 N 1 0 0 1 176 0 2
-Validated: 1
 EndChar
 
 StartChar: quotedblright
@@ -19799,7 +19795,6 @@ Back
 Fore
 Refer: 521 8217 N 1 0 0 1 0 0 2
 Refer: 521 8217 N 1 0 0 1 176 0 2
-Validated: 1
 EndChar
 
 StartChar: quotesinglbase
@@ -19810,7 +19805,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 521 8217 N 1 0 0 1 0 -575 3
-Validated: 1
 EndChar
 
 StartChar: quotedblbase
@@ -19822,7 +19816,6 @@ Back
 Fore
 Refer: 521 8217 N 1 0 0 1 0 -575 2
 Refer: 521 8217 N 1 0 0 1 176 -575 2
-Validated: 1
 EndChar
 
 StartChar: guilsinglleft
@@ -20618,7 +20611,7 @@ SplineSet
  58 583 l 1,2,-1
  73 629 l 1,3,-1
  175 604 l 1,4,-1
- 184 712 l 1,5,-1
+ 184 712 l 5,5,-1
  233 712 l 1,6,-1
  242 605 l 1,7,-1
  345 629 l 1,8,-1
@@ -30921,7 +30914,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 520 8216 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni02BC
@@ -30932,7 +30924,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 521 8217 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni02BE
@@ -47235,7 +47226,7 @@ Back
 Fore
 SplineSet
 75 0 m 1,0,-1
- 75 656 l 1,1,-1
+ 75 656 l 5,1,-1
  445 656 l 1,2,-1
  445 586 l 1,3,-1
  158 586 l 1,4,-1
@@ -48094,7 +48085,7 @@ SplineSet
  354 71 l 1,3,-1
  354 586 l 1,4,-1
  67 586 l 1,5,-1
- 67 656 l 1,6,-1
+ 67 656 l 5,6,-1
  437 656 l 1,7,-1
  437 0 l 1,0,-1
 EndSplineSet
@@ -49526,27 +49517,41 @@ EndChar
 
 StartChar: miao_asp
 Encoding: 802 94033 1232
-Width: 169
-Flags: W
+Width: 191
+Flags: WO
 LayerCount: 2
 Back
+SplineSet
+3 470 m 1,0,1
+ 41 495 41 495 59.5 523 c 128,-1,2
+ 78 551 78 551 78 595 c 1,3,4
+ 75 594 75 594 70 594 c 0,5,6
+ 49 594 49 594 33 607 c 128,-1,7
+ 17 620 17 620 17 644 c 0,8,9
+ 17 670 17 670 32 685 c 128,-1,10
+ 47 700 47 700 70 700 c 0,11,12
+ 99 700 99 700 116 676.5 c 128,-1,13
+ 133 653 133 653 133 609 c 0,14,15
+ 133 549 133 549 105.5 505.5 c 128,-1,16
+ 78 462 78 462 26 432 c 1,17,-1
+ 3 470 l 1,0,1
+EndSplineSet
 Fore
 SplineSet
-3 470 m 5,0,1
- 41 495 41 495 59.5 523 c 132,-1,2
- 78 551 78 551 78 595 c 5,3,4
- 75 594 75 594 70 594 c 4,5,6
- 49 594 49 594 33 607 c 132,-1,7
- 17 620 17 620 17 644 c 4,8,9
- 17 670 17 670 32 685 c 132,-1,10
- 47 700 47 700 70 700 c 4,11,12
- 99 700 99 700 116 676.5 c 132,-1,13
- 133 653 133 653 133 609 c 4,14,15
- 133 549 133 549 105.5 505.5 c 132,-1,16
- 78 462 78 462 26 432 c 5,17,-1
- 3 470 l 5,0,1
+19 519 m 1,0,1
+ 54 524 54 524 69.5 539 c 0,2,3
+ 96 565 96 565 96 590 c 1,4,5
+ 93 589 93 589 71 589 c 128,-1,6
+ 49 589 49 589 33 604.5 c 128,-1,7
+ 17 620 17 620 17 644 c 0,8,9
+ 17 673 17 673 42.5 691.5 c 0,10,11
+ 61 705 61 705 90 705 c 0,12,13
+ 129 705 129 705 146.5 673 c 0,14,15
+ 158 652 158 652 158.5 614 c 0,16,17
+ 159 559 159 559 118 516.5 c 0,18,19
+ 89 486 89 486 34 476 c 1,20,-1
+ 19 519 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: miao_ref_voice
