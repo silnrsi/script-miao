@@ -505,7 +505,7 @@ gZzsaChux, gZzsyaChux, gHhaChux
   gEr = postscript("miao_er");  // U+16F77·	𖽷
   gErRnd = postscript("miao_round_er");  // U+16F78·	𖽸
   gAi = postscript("miao_ai");  // U+16F79·	𖽹
-  gEi = postscript("miao_ei");  // U+16F7A·	𖽺
+  gEi = postscript("miao_ei.hmd");  // U+16F7A·	𖽺
   gAu = postscript("miao_au");  // U+16F7B·	𖽻
   gOu = postscript("miao_ou");  // U+16F7C·	𖽼
   gN = postscript("miao_n");  // U+16F7D·	𖽽
@@ -550,7 +550,7 @@ gZzsaChux, gZzsyaChux, gHhaChux
   gErYcmp = postscript("miao_er.ycmp");  // U+16F77 compressed·	𖽷
   gErRndYcmp = postscript("miao_round_er.ycmp");  // U+16F78 compressed·	𖽸
   gAiYcmp = postscript("miao_ai.ycmp");  // U+16F79 compressed·	𖽹
-  gEiYcmp = postscript("miao_ei.ycmp");  // U+16F7A compressed·	𖽺
+  gEiYcmp = postscript("miao_ei.ycmphmd");  // U+16F7A compressed·	𖽺
   gAuYcmp = postscript("miao_au.ycmp");  // U+16F7B compressed·	𖽻
   gOuYcmp = postscript("miao_ou.ycmp");  // U+16F7C compressed·	𖽼
   gNYcmp = postscript("miao_n.ycmp");  // U+16F7D compressed·	𖽽
