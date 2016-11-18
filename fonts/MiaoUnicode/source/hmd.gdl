@@ -208,7 +208,8 @@ gZzya, gZzsya, gWa, gAh, gHha
                     gNhaChux, gNnhaChux,
                     gNghaChux);
 
-  clsInit = (clsInitStd, clsInitSalt, clsWartChux, clsInitAspL);
+  clsInit = (clsInitStd, clsInitSalt, clsWartChux, clsInitAspL)
+    { aboveNormS3 = point(bb.width/3, bb.top+90m); };
 
 /* initials with aspiration mark on the right (default) */
   clsInitAspR = (
@@ -883,6 +884,11 @@ table(pos) { MUnits = 1000 }
     /  _ clsAsp? ^ _ clsFinaYcmpTop gAbove ;
   clsFinaYcmpTop clsFinaYcmpTop {attach {to=@1; at=TopL; with=TopR; level = 3}}
     /  _ ^ _ gAbove ; // two "top" finals together, above
+
+  clsInit clsFinaYcmpNorm {attach {to=@1; at=aboveNormS3; with=NormL; level = 2}}
+    /  _ clsAsp? ^ _ clsFinaYcmpNorm clsFinaYcmpNorm gAbove ;
+  clsFinaYcmpNorm clsFinaYcmpNorm {attach {to=@1; at=NormL; with=NormR; level = 3}}
+    /  _ ^ _ clsFinaYcmpNorm gAbove ; // three "norm" finals together, above
 
   clsInit clsFinaYcmpNorm {attach {to=@1; at=aboveNormS; with=NormL; level = 2}}
     /  _ clsAsp? ^ _ clsFinaYcmpNorm gAbove ;
