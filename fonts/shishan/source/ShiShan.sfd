@@ -28836,7 +28836,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u16F01.ygptmp
+StartChar: u16F02.ygp
 Encoding: 623 -1 618
 Width: 1366
 VWidth: 2023
