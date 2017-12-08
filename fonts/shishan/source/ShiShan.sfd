@@ -1221,7 +1221,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 448 16 13
+WinInfo: 128 16 13
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5385,7 +5385,7 @@ MultipleSubs2: "ConsToneT-1" u16F44 u16F90
 MultipleSubs2: "ConsToneA-1" u16F44 u16F91
 EndChar
 
-StartChar: u16F46.prov
+StartChar: u16f10_u16f4f
 Encoding: 201 -1 65
 Width: 1479
 VWidth: 2023
@@ -5506,7 +5506,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u16F47.prov
+StartChar: u16f0e_u16f4f
 Encoding: 203 -1 67
 Width: 1720
 VWidth: 2023
